@@ -1,13 +1,14 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 import { Router } from '@angular/router';
+import { One1Component } from './one-1/one-1.component';
 
 @Component({
   selector: 'app-one',
   standalone: true,
-  imports: [],
-  templateUrl: './mall.component.html'
+  templateUrl: './one.component.html',
+  imports: [One1Component]
 })
-export class MallComponent {
+export class OneComponent {
   constructor(private router: Router) {}
 
   navigateTo(page: string) {
