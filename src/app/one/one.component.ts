@@ -1,10 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-one',
-  standalone: true,
-  imports: [],
   templateUrl: './one.component.html'
 })
 export class OneComponent {
