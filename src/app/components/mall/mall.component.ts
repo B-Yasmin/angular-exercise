@@ -1,16 +1,12 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
   selector: 'app-mall',
   standalone: true,
-  imports: [],
+  imports: [NavbarComponent],
   templateUrl: './mall.component.html'
 })
 export class MallComponent {
-  constructor(private router: Router) {}
-
-  navigateTo(page: string) {
-    this.router.navigate([page]);
-  }
+  
 }
