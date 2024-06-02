@@ -6,7 +6,6 @@ import { One1Component } from './one/one-1/one-1.component';
 import { OneComponent } from './one/one.component';
 import { TwoComponent } from './two/two.component';
 import { Two1Component } from './two/two-1/two-1.component';
-import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -15,7 +14,6 @@ import { NavbarComponent } from './navbar/navbar.component';
   imports: [
     CommonModule, // Importera CommonModule så att ngIf, ngFor och andra vanliga direktiv är tillgängliga
     HomeComponent,
-    NavbarComponent,
     One1Component, 
     OneComponent, 
     TwoComponent,
@@ -24,7 +22,6 @@ import { NavbarComponent } from './navbar/navbar.component';
   ],
   exports: [
     HomeComponent,
-    NavbarComponent,
     One1Component,
     OneComponent, 
     TwoComponent,
