@@ -1,0 +1,18 @@
+<div class="row shadow-lg">
+  <div class="col-lg-3"></div>
+  <div class="col-lg">
+
+    <ng-content>
+        @if(isLoadning){
+            <p>
+            Loading.....
+            </p>
+            }
+            @else{
+            <p>
+              Not loading ......
+            </p>
+            }
+    </ng-content>
+  </div>
+</div>

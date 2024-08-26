@@ -8,6 +8,7 @@ import { PageComponentComponent } from './components/pages/page-component/page-c
 import { PagePipesComponent } from './components/pages/page-pipes/page-pipes.component';
 import { OneComponent } from './components/one/one.component';
 import { TwoComponent } from './components/two/two.component';
+import { ThreeComponent } from './components/three/three.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -19,4 +20,5 @@ export const routes: Routes = [
   { path: 'others', component: PageOthersComponent },
   { path: 'one', component: OneComponent },
   { path: 'two', component: TwoComponent },
+  { path: 'three', component: ThreeComponent },
 ];

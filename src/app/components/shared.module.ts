@@ -6,11 +6,13 @@ import { One1Component } from './one/one-1/one-1.component';
 import { OneComponent } from './one/one.component';
 import { TwoComponent } from './two/two.component';
 import { Two1Component } from './two/two-1/two-1.component';
-import { PageComponentComponent } from './pages/page-component/page-component.component'; 
-import { PageServicesComponent } from './pages/page-services/page-services.component'; 
-import { PagePipesComponent } from './pages/page-pipes/page-pipes.component'; 
-import { PageDirectivesComponent } from './pages/page-directives/page-directives.component'; 
-import { PageOthersComponent } from './pages/page-others/page-others.component'; 
+import { PageComponentComponent } from './pages/page-component/page-component.component';
+import { PageServicesComponent } from './pages/page-services/page-services.component';
+import { PagePipesComponent } from './pages/page-pipes/page-pipes.component';
+import { PageDirectivesComponent } from './pages/page-directives/page-directives.component';
+import { PageOthersComponent } from './pages/page-others/page-others.component';
+import { Three1Component } from './three/three-1/three-1.component';
+import { ThreeComponent } from './three/three.component';
 
 
 
@@ -24,10 +26,12 @@ import { PageOthersComponent } from './pages/page-others/page-others.component';
     PageServicesComponent,
     PagePipesComponent,
     PageOthersComponent,
-    One1Component, 
-    OneComponent, 
+    One1Component,
+    OneComponent,
     TwoComponent,
-    Two1Component
+    Two1Component,
+    Three1Component,
+    ThreeComponent
 
   ],
   exports: [
@@ -38,7 +42,7 @@ import { PageOthersComponent } from './pages/page-others/page-others.component';
     PagePipesComponent,
     PageOthersComponent,
     One1Component,
-    OneComponent, 
+    OneComponent,
     TwoComponent,
     Two1Component
   ]
